@@ -6,8 +6,8 @@ public class Main {
 
     public static void pacman(){
 
-        for (int i = 0; i <= 100000; i++) {
-            System.out.print(":v  -");    
+        for (int i = 0; i <= Integer.MAX_VALUE; i++) {
+            System.out.print(":v ");    
             if (i%50==0) {
                 System.out.println();
             }        
